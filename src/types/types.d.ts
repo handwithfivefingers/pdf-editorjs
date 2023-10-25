@@ -1,0 +1,10 @@
+declare module '@editorjs/list';
+declare module '@editorjs/header';
+declare module '@editorjs/paragraph';
+declare module '@editorjs/table';
+declare module '@calumk/editorjs-codeflask';
+declare module 'editorjs-break-line';
+declare module 'editorjs-alert';
+declare module '@editorjs/delimiter';
+declare module '@calumk/editorjs-columns'
+declare module 'editorjs-text-alignment-blocktune';

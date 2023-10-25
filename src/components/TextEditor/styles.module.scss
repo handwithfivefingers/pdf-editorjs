@@ -1,0 +1,24 @@
+.wrapper {
+	display: flex;
+	padding: 12px;
+	flex-direction: column;
+  gap: 12px;
+	.action {
+		display: flex;
+		flex-direction: row;
+		gap: 8px;
+	}
+	textarea {
+		width: 100%;
+		background-color: #fff;
+	}
+	.content {
+		// border:1px solid #ccc;
+		padding:12px;
+		text-align: left;
+		min-height: 300px;
+		// &.focus {
+		// 	border-color: blue;
+		// }
+	}
+}

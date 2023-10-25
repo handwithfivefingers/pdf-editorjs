@@ -1,0 +1,20 @@
+.toolbar {
+	// border: 1px solid #ccc;
+	// border-bottom: none;
+	// border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	button {
+		width: 36px;
+		border: 1px solid transparent;
+		border-radius: 0;
+		border-right-color: #ccc;
+    background-color: transparent;
+		&:first-child {
+			border-left-color: transparent;
+      &:hover {
+        border-left-color: unset;
+      }
+		}
+	}
+}

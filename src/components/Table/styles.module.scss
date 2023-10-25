@@ -1,0 +1,24 @@
+.wrapper {
+	display: flex;
+	padding: 12px;
+	flex-direction: column;
+	gap: 12px;
+	.action {
+		display: flex;
+		flex-direction: row;
+		gap: 8px;
+	}
+
+	.table {
+		table {
+			border-collapse: collapse;
+			input {
+				outline: none;
+				border: 1px solid transparent
+			}
+			th, td {
+				border: 1px solid #ccc;
+			}
+		}
+	}
+}

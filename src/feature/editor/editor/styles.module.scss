@@ -1,0 +1,18 @@
+.editor {
+	border: 1px solid #ccc;
+	height: 100%;
+	width: 100%;
+	min-height: 300px;
+	border-radius: 8px;
+	padding: 8px;
+	* {
+		border: none;
+		text-align: left;
+		padding: 2px;
+		margin: 0;
+		&:focus {
+			border: none;
+			outline: none;
+		}
+	}
+}
